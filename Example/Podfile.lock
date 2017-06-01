@@ -1,0 +1,16 @@
+PODS:
+  - Mozi (0.1.0)
+
+DEPENDENCIES:
+  - Mozi (from `../`)
+
+EXTERNAL SOURCES:
+  Mozi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mozi: a512b400fa783de4298a9b8ba38be78c6c22a0b8
+
+PODFILE CHECKSUM: 26db4f5ccc1e18146a433dcac762769a00843555
+
+COCOAPODS: 1.2.1

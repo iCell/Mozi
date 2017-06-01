@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Mozi
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let image = #imageLiteral(resourceName: "screenshot")
+        let compressedImage = image.compressedImage()
     }
 
     override func didReceiveMemoryWarning() {
