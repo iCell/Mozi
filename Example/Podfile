@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Mozi_Example' do
+  pod 'Mozi', :path => '../'
+
+  target 'Mozi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
